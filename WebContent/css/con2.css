@@ -1,0 +1,586 @@
+@charset "UTF-8";
+
+.hot_issue {
+ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+       clear: both;
+    width: 704px;
+    position: relative;
+    float: left;
+    height: 472px;
+    margin-top: 32px;
+    margin-bottom: 49px;
+}
+
+.hot_issue h2 {
+    border-bottom: 1px solid #dfe6e8;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  
+}
+
+.hot_issue h2 span.title_link {
+    float: left;
+    width: 70px;
+    height: 15px;
+    display: block;
+    background: url(//cdnimg.melon.co.kr/resource/image/web/main/bg_main_title_140716.png) no-repeat;
+    background-position: 0 -194px;
+    text-indent: -9999px;
+    
+}
+
+
+.hot_issue h2 span.txt_intro {
+    display: inline-block;
+    width: 300px;
+    margin-top: 1px;
+    padding-left: 12px;
+    letter-spacing: 0;
+    font-weight: normal;
+    color: #888;
+    font-size: 12px;
+    background: 0;
+    vertical-align : top;
+ }
+
+.hot_issue .sub_list{
+	
+	padding-left:0;
+	margin:0;
+}
+.hot_issue .issue_list04 {
+    clear: both;
+    width: 704px;
+}
+
+.hot_issue .issue_list04 dl {
+    position: relative;
+    margin: 16px 0 2px 16px;
+    float: left;
+}
+
+.ml0 {
+    margin-left: 0 !important;
+}
+
+.issue_list04 .mov_area {
+    position: relative;
+    margin-left:0;
+     height: 148px;
+}
+.issue_list04 .ml0 dl dd {
+    width: 223px;
+    height: 148px;
+}
+
+.issue_list04 dl dt {
+    width: 223px;
+    line-height:16px;
+}
+.issue_list04 .title {
+    display: block;
+    overflow: hidden;
+    height: 16px;
+    font-weight:540;
+    color: #333;
+    margin-top: 6px;
+    margin-bottom: 2px;
+    word-break: break-all;
+    font-size:13px;
+}
+.issue_list04 .ellipsis {
+    display: block;
+    width: 223px;
+    height: 16px;
+    overflow: hidden;
+    word-break: break-all;
+    font-size:12.7px;
+    color:gray;
+    font-weight:50;
+}
+
+.issue_list04 .view_no {
+    font-size: 11px;
+    font-family: "Dotum","Apple Gothic",sans-serif;
+    color: #888;
+    height: 14px;
+    margin:0;
+    padding:0;
+    margin-top: 5px;
+}
+
+.issue_list04 .view_no .bar {
+    padding-right: 6px;
+    margin-right: 5px;
+   /*  background: url(//cdnimg.melon.co.kr/resource/image/web/common/bg_gray_line.png)
+     no-repeat right 1px; */
+    color: #7cb710;
+}
+
+.issue_list04 .view_no a {
+    color: #000080;
+    font-size:11px;
+}
+
+.wrap_page {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.wrap_page .page_num {
+    display: inline-block;
+    color: #888;
+    font-size: 12px;
+    line-height: 17px;
+    vertical-align: top;
+    margin-right:54px;
+}
+
+.none {
+    position: absolute;
+    top: -5000em;
+    left: 0;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+}
+
+.wrap_page .page_num strong {
+    color: #1a1a1a;
+    font-weight: normal;
+}
+
+.wrap_page .wrap_btn {
+    vertical-align: top;
+   right:4px;
+    position:absolute;
+    
+}
+
+.wrap_page .page .wrap_btn .btn_pre{
+    margin-right: 0px;
+   
+    
+}
+
+.wrap_page .page .wrap_btn .btn_pre .fas{
+    font-size:10px;
+  padding:3px 6px;
+  color:black;
+     
+}
+
+.wrap_page .page .wrap_btn .btn_next .fas{
+   color:black;
+    font-size:10px;
+  padding:3px 6px;
+     
+}
+
+.wrap_page .btn_pre.disabled span.odd_span {
+    background-position: left -202px !important;
+}
+
+.wrap_page .btn_pre span.odd_span, .wrap_page .btn_next span.odd_span {
+    width: 20px;
+    height: 17px;
+   /*  background: url(//cdnimg.melon.co.kr/resource/image/web/main/bg_btn_page02_140716.png) no-repeat; */
+    font-size: 0;
+    line-height: 0;
+}
+
+.page .wrap_btn .btn_pre, .page .wrap_btn .btn_next{
+    float: left;
+    margin-right: 0;
+   margin-top:-2px;
+  
+    
+}
+.page .wrap_btn .btn_pre, .page .wrap_btn .btn_next .fas{
+	font-size:10px;
+ border:1px solid darkgray;
+  margin-top:1.3px;
+  /* padding:2px 3px; */
+ 
+}
+
+.chart {
+    width: 280px;
+    float: left;
+    margin-left: 24px;
+    height: 472px;
+    margin-top: 32px;
+}
+
+.chart h2 a.title_link {
+    float: left;
+    width: 70px;
+    height: 15px;
+    display: block;
+   /*  background: url(//cdnimg.melon.co.kr/resource
+    /image/web/main/bg_main_title_140721.png) no-repeat 1px -105px; */
+    font-size: 0;
+    line-height: 0;
+}
+
+.wrap_chart_tab {
+    position: relative;
+    zoom: 1;
+}
+
+li.on a.tab_link {
+    position: absolute;
+    z-index: 1;
+    margin-top: -1px;
+    padding-top: 7px;
+    border-top: 2px solid #fafa72;
+}
+
+a.tab_link.realtime {
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    
+}
+
+.txt_intro{
+	margin-left:86px;
+	color:black;
+	font-size:13px;
+	font-weight:100;
+	padding-top:5px;
+}
+.real_time{
+	
+	width:290px;
+}
+
+a.tab_link {
+    display: block;
+    width: 94px;
+    height: 20px;
+    padding-top: 8px;
+    /* background: url(//cdnimg.melon.co.kr/resource/image/
+    web/main/icon_main_200615.png) no-repeat right -416px; */
+    text-align: center;
+    vertical-align: top;
+    
+   
+}
+
+
+/* .chart li.on div.list_wrap {
+    display: block;
+} */
+
+.chart .list_wrap span.txt_intro {
+    position: absolute;
+    top: -53px;
+    right: 0;
+    padding-left: 7px;
+    letter-spacing: 0;
+    font-weight: normal;
+    color: #888;
+    display: inline-block;
+    font-size: 12px;
+    font-family: "Dotum","Apple Gothic",sans-serif;
+    background: 0;
+    text-align: right;
+}
+
+
+.wrap_chart_tab{
+	border:1px solid #e9edef;
+	margin-left:-5px;
+	margin-top:-5px;	
+}
+
+.chart .wrap_chart_tab ul {
+    border-top: 1px solid #d8ddde;
+    padding-left:5px;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+
+.chart .wrap_chart_tab li.rank_item {
+    background: #fff;
+     padding:6px 0px; 
+}
+
+.chart .wrap_chart_tab li {
+    position: relative;
+    width: 283px;
+    height: 33px;
+    margin-left:-5px;
+    border-bottom: 1px solid #e9edef;
+  
+    font-size: 0;
+    line-height: 0;
+}
+
+.chart .wrap_chart_tab li.odd {
+    background: #f8f8f8;
+    padding:6px 0;   
+}
+
+.chart .wrap_chart_tab ul li a{
+    line-height:32px;
+    font-size:12px;
+    font-weight:lighter;
+    padding-left:10px;
+    color:black;
+}
+
+.chart .tab_link2{
+    line-height:32px;
+    font-size:12px; 
+    padding:9px 20px; 
+    margin-left:118px;
+   
+    
+}
+
+.chart .tab_link3{	
+    font-size:12px;
+    font-weight:lighter;
+    margin-left:7px;
+    padding:9px 20px;
+   margin-left:11px;
+    border-left:1px solid #eeeeee;
+    	
+}
+
+.chart .wrap_chart_tab .drive1{
+	float:right;
+	padding-right:20px;
+	
+}
+
+.chart .wrap_chart_tab .drive1 .fas{
+	padding-left:5px;
+	font-size:12px;
+	color: darkgray;
+}
+
+.chart .wrap_chart_tab .drive2{
+	padding-left:70px;
+	
+}
+
+
+
+/* 
+.chart li.nth1 .list_wrap li .rank_cntt {
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 253px;
+}
+
+.chart .list_wrap li .rank_cntt {
+    float: left;
+    padding-top: 8px;
+}
+
+.chart .list_wrap li .rank_cntt .thumb {
+    display: none;
+    float: left;
+    width: 48px;
+}
+
+.chart .list_wrap li .rank_cntt .thumb a {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    vertical-align: top;
+}
+
+.chart .list_wrap li .rank_cntt .thumb a .bg_album_frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    background: url(//cdnimg.melon.co.kr/resource/image/web/main/bg_frame.png) no-repeat -873px 0;
+}
+
+.chart li.nth1 .list_wrap li .rank_cntt .rank_info {
+    width: 253px;
+}
+
+
+.chart li.nth1 .list_wrap li .rank_cntt .song {
+    width: 164px;
+    overflow: visible;
+    text-overflow: initial;
+    white-space: initial;
+    word-wrap: initial;
+}
+
+.chart li.nth1 .list_wrap li .rank_cntt .song a.ellipsis {
+    display: inline-block;
+    width: auto;
+    max-width: 135px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.chart li.nth1 .list_wrap li .rank_cntt .artist {
+    width: 87px;
+}
+
+.chart .list_wrap li .rank_cntt .artist {
+    float: left;
+    margin-left: 1px;
+}
+
+.chart .list_wrap li.active {
+    position: relative;
+    z-index: 10;
+    height: 69px;
+}
+
+.chart li.nth1 .list_wrap li.active .rank_cntt .rank_info {
+    width: 196px;
+}
+
+.chart_btn_area {
+    zoom: 1;
+    overflow: hidden;
+    padding: 6px 8px;
+    border-bottom: 1px solid #dfe6e8;
+}
+
+.chart_btn_area .btn_base {
+    display: inline;
+    float: left;
+    margin-left: 5px;
+    
+}
+
+.btn_base.shuffle span.odd_span {
+    padding-left: 25px;
+    background-position: left -1650px;
+}
+
+.btn_base span.even_span {
+    min-width: 22px;
+    height: 26px;
+    padding-right: 8px;
+    background: url(//cdnimg.melon.co.kr/resource/image/web/common/bg_btn_base_200615.png) no-repeat right top;
+    color: #333;
+    font-size: 11px;
+    line-height: 29px;
+    font-family: "Dotum","돋음","Apple Gothic",sans-serif;
+    letter-spacing: -1px;
+}
+
+.chart_btn_area .all_view {
+    float: right;
+    margin: 5px 5px 0 0;
+}
+
+
+.chart_btn_area .all_view a {
+    color: #666;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.chart_btn_area .all_view span span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url(//cdnimg.melon.co.kr/resource/image/web/main/icon_main.png) no-repeat -1px -58px;
+}
+
+a.tab_link.pop {
+    position: absolute;
+    top: 0;
+    left: 93px;
+    cursor: pointer;
+}
+
+a.tab_link.pop span {
+    display: inline-block;
+    height: 14px;
+    width: 25px;
+    background: url(//cdnimg.melon.co.kr/resource/image/web/main/icon_main_200615.png) no-repeat -76px -131px;
+}
+
+.chart .list_wrap {
+    display: none;
+    width: 278px;
+    position: absolute;
+    top: 28px;
+    left: 0;
+    border: 1px solid #dfe6e8;
+    border-width: 0 1px;
+}
+
+
+a.tab_link.artist {
+    position: absolute;
+    top: 0;
+    left: 186px;
+    cursor: pointer;
+}
+a.tab_link.artist span {
+    display: inline-block;
+    height: 14px;
+    width: 62px;
+    background: url(//cdnimg.melon.co.kr/resource/image/web/main/icon_main_200615.png) no-repeat -127px -131px;
+}
+
+.chart .list_wrap span.txt_intro {
+    position: absolute;
+    top: -53px;
+    right: 0;
+    padding-left: 7px;
+    letter-spacing: 0;
+    font-weight: normal;
+    color: #888;
+    display: inline-block;
+    font-size: 12px;
+    font-family: "Dotum","Apple Gothic",sans-serif;
+    background: 0;
+    text-align: right;
+}
+
+
+.chart .list_wrap ul {
+    border-top: 1px solid #d8ddde;
+}
+
+.chart_btn_area .all_view {
+    float: right;
+    margin: 5px 5px 0 0;
+}
+
+.chart_btn_area .all_view a {
+    color: #666;
+    font-size: 11px;
+    line-height: 14px;
+} */
+
+
+	
+	
